@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url(http://source.unsplash.com/O0nPNx0tHhs) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  max-width: 650px;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  box-shadow: inset 0 0 0 2px #00b4d8;
+  color: #ee9b00;
+  font-size: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #00b4d8;
+  transition: all 0.4s;
+  color: #fff;
+}
+
+#btn:active {
+    transform: translateY(4px);
+}
+
+#quote {
+  font-size: 2rem;
+  color: #00b4d8;
+}
+
+#author {
+  margin-top: 10px;
+  display: block;
+  font-size: 1.2rem;
+  color: #caf0f8;
+}
