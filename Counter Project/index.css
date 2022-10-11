@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-image: url("http://source.unsplash.com/07uiqD9LS6U");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.table {
+  max-width: 300px;
+  width: 450px;
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 40px;
+  backdrop-filter: blur(1.2px);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.table h3 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.count {
+  color: chartreuse;
+  font-size: 7rem;
+  margin: 0;
+  margin-block: 10px;
+}
+
+.btn {
+  border: none;
+  background-color: #0d2c54;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  padding: 8px 18px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
